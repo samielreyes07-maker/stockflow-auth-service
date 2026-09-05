@@ -22,7 +22,7 @@ public class EmployeeSpecification {
 
         if (name != null){
             specification = specification.and(
-                    hasLastName(name)
+                    hasName(name)
             );
         }
 
