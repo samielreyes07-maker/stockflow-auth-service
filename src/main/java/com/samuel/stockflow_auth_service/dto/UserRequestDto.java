@@ -8,6 +8,22 @@ public class UserRequestDto {
     private UserRole role;
     private Integer employeeId;
 
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setEmployeeId(Integer employeeId) {
+        this.employeeId = employeeId;
+    }
+
+    public void setRole(UserRole role) {
+        this.role = role;
+    }
+
     public String getPassword() {
         return password;
     }
